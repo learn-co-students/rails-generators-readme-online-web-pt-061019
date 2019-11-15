@@ -1,4 +1,4 @@
-class AddPostStatusToPost < ActiveRecord::Migration[5.0]
+class AddPostStatusToPost < ActiveRecord::Migration
   def change
     add_column :posts, :post_status, :string
   end
